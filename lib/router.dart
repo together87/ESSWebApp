@@ -54,7 +54,7 @@ final GoRouter router = GoRouter(
       ),
     ),
     GoRoute(
-      path: '/users/new',
+      path: '/users/create',
       pageBuilder: (context, state) => NoTransitionPage<void>(
         key: state.pageKey,
         child: const Layout(
